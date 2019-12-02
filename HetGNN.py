@@ -10,7 +10,7 @@ torch.set_num_threads(2)
 import os
 os.environ['CUDA_VISIBLE_DEVICES']='0'
 
-
+print("This is a correction")
 class model_class(object):
 	def __init__(self, args):
 		super(model_class, self).__init__()
